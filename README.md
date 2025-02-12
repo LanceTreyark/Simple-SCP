@@ -1,5 +1,5 @@
 There are two scripts here. One for your local pc (I use WSL on Windows 11) and one for the server (I use Debian 12)
-I set these us to be run with alias commands "simpleScp" & "scpUnpack"
+I set these up to be run with alias commands "simpleScp" & "scpUnpack"
 
 Local script:
 Make executable with:
