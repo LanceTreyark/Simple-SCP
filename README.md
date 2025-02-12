@@ -4,6 +4,9 @@ This repository contains two scripts: one for your local PC (I use WSL on Window
 
 I set these up to be run with alias commands: `simpleScp` and `scpUnpack`.
 
+# Note: 
+You will need to edit your variables in the scrips ie: user@192.168.0.1 will need to be your username and server IP address on the client side script. You also need to change where you want the file unpacked to on the second script
+
 ## Local Script
 
 1. **Make the script executable:**
