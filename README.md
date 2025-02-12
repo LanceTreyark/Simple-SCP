@@ -1,24 +1,59 @@
-There are two scripts here. One for your local pc (I use WSL on Windows 11) and one for the server (I use Debian 12)
-I set these up to be run with alias commands "simpleScp" & "scpUnpack"
+README
+This repository contains two scripts: one for your local PC (I use WSL on Windows 11) and one for the server (I use Debian 12).
 
-# Local script:
-1. **Make the script executable:**
-   ```bash
+I set these up to be run with alias commands: simpleScp and scpUnpack.
+
+Local Script
+1. Make the script executable:
+bash
+Copy
+Edit
 sudo chmod +x simpleScp.sh
-``
-Run with: 
+2. Run the script:
+bash
+Copy
+Edit
 ./simpleScp.sh
-Or optional alias command for your ~/.bash_aliases file:
-alias simpleScp="sh someLocation/simpleScp.sh"
+3. Optional: Create an alias for easier use:
+Add the following line to your ~/.bash_aliases file:
 
-# Server script:
-Make executable with:
+bash
+Copy
+Edit
+alias simpleScp="sh /path/to/simpleScp.sh"
+Then reload your aliases:
+
+bash
+Copy
+Edit
+source ~/.bash_aliases
+Server Script
+1. Make the script executable:
+bash
+Copy
+Edit
 sudo chmod +x scpUnpack.sh
-Run with: (sudo to access /var/www...) 
+2. Run the script:
+Use sudo to access /var/www:
+
+bash
+Copy
+Edit
 sudo ./scpUnpack.sh
-Or optional alias command for your ~/.bash_aliases file:
-alias scpUnpack="sudo bash /home/userName/scpUnpack.sh"
+3. Optional: Create an alias for easier use:
+Add the following line to your ~/.bash_aliases file:
 
-Message me on Twitter/X if you have any questions @LanceTreyark
+bash
+Copy
+Edit
+alias scpUnpack="sudo bash /home/yourUsername/scpUnpack.sh"
+Then reload your aliases:
 
-_Lance
+bash
+Copy
+Edit
+source ~/.bash_aliases
+Contact
+If you have any questions, feel free to message me on Twitter/X: @LanceTreyark
+
+Lance
