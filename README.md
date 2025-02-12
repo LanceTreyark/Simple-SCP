@@ -8,59 +8,59 @@ I set these up to be run with alias commands: `simpleScp` and `scpUnpack`.
 
 1. **Make the script executable:**
 
-   \`\`\`bash
+   ```bash
    sudo chmod +x simpleScp.sh
-   \`\`\`
+   ```
 
 2. **Run the script:**
 
-   \`\`\`bash
+   ```bash
    ./simpleScp.sh
-   \`\`\`
+   ```
 
 3. **Optional: Create an alias for easier use:**
 
    Add the following line to your `~/.bash_aliases` file:
 
-   \`\`\`bash
+   ```bash
    alias simpleScp="sh /path/to/simpleScp.sh"
-   \`\`\`
+   ```
 
    Then reload your aliases:
 
-   \`\`\`bash
+   ```bash
    source ~/.bash_aliases
-   \`\`\`
+   ```
 
 ## Server Script
 
 1. **Make the script executable:**
 
-   \`\`\`bash
+   ```bash
    sudo chmod +x scpUnpack.sh
-   \`\`\`
+   ```
 
 2. **Run the script:**
 
    Use `sudo` to access `/var/www`:
 
-   \`\`\`bash
+   ```bash
    sudo ./scpUnpack.sh
-   \`\`\`
+   ```
 
 3. **Optional: Create an alias for easier use:**
 
    Add the following line to your `~/.bash_aliases` file:
 
-   \`\`\`bash
+   ```bash
    alias scpUnpack="sudo bash /home/yourUsername/scpUnpack.sh"
-   \`\`\`
+   ```
 
    Then reload your aliases:
 
-   \`\`\`bash
+   ```bash
    source ~/.bash_aliases
-   \`\`\`
+   ```
 
 ## Contact
 
