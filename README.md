@@ -2,7 +2,8 @@ There are two scripts here. One for your local pc (I use WSL on Windows 11) and 
 I set these up to be run with alias commands "simpleScp" & "scpUnpack"
 
 # Local script:
-Make executable with:
+1. **Make the script executable:**
+   ```bash
 sudo chmod +x simpleScp.sh
 Run with: 
 ./simpleScp.sh
