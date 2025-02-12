@@ -5,6 +5,7 @@ I set these up to be run with alias commands "simpleScp" & "scpUnpack"
 1. **Make the script executable:**
    ```bash
 sudo chmod +x simpleScp.sh
+``
 Run with: 
 ./simpleScp.sh
 Or optional alias command for your ~/.bash_aliases file:
